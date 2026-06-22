@@ -72,8 +72,11 @@ PASS.
 
 ## Gate 9 — Live QA
 
-PASS after redeploy required.
+PASS.
 
 - Public deployment approved by Dean in Telegram.
 - GitHub Pages live URL: `https://deanooooooooo.github.io/no-quit-services-site/`
-- After this image redesign is pushed, verify HTTP 200 and live HTML contains No-Quit Services plus the new `hero-finished-sprinklers.jpg` asset reference.
+- Verified HTTP 200 after image redesign deploy.
+- Verified live HTML contains the new `hero-finished-sprinklers.jpg`, `finished-stone-walkway.jpg`, and `lawn-trench-path.jpg` references.
+- Verified the old `project-01.jpg` through `project-04.jpg` references are gone from live HTML.
+- Verified all seven new public image asset URLs return HTTP 200.
