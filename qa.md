@@ -15,7 +15,9 @@ PASS with notes.
 PASS.
 
 - Real Facebook work images were extracted through rendered browser access after direct curl failed.
-- The site uses real work-in-progress sprinkler/lawn images. No stock images are used.
+- Re-ran image research across Facebook photo pages, mobile photo page, and two public group posts after the first version shipped with weak/repeated image use.
+- Saved and inspected 50 image responses, deduped to the usable business-photo pool, and documented final decisions in `image-map.md`.
+- The site uses real sprinkler/lawn/landscape project images. No stock images are used.
 - Image placements preserve subject integrity and use source-matching aspect ratios.
 
 ## Gate 3 — Testimonial Audit
@@ -45,9 +47,10 @@ PASS local.
 PASS.
 
 - All image paths exist locally.
-- No duplicate visible placement of the same image except logo brand reuse.
-- Gallery uses mixed portrait/landscape layouts matched to source orientation.
-- Desktop and mobile screenshots checked after CSS adjustments: no text clipping, no incoherent overlap, and no missing project images.
+- No duplicate visible placement of any project image. Logo reuse is limited to brand/header/proof/footer.
+- Old `assets/project-01.jpg` through `assets/project-04.jpg` references were removed; current visible image set is unique.
+- Gallery uses natural 4:3 landscape frames plus one true 3:4 portrait frame. The vertical trench photo is no longer forced into a decorative crop.
+- Desktop and mobile screenshots checked after the redesign: no text clipping, no incoherent overlap, no missing project images, and no old project asset references.
 
 ## Gate 7 — Map / Local SEO Audit
 
@@ -69,4 +72,8 @@ PASS.
 
 ## Gate 9 — Live QA
 
-BLOCKED until Dean approves public deployment.
+PASS after redeploy required.
+
+- Public deployment approved by Dean in Telegram.
+- GitHub Pages live URL: `https://deanooooooooo.github.io/no-quit-services-site/`
+- After this image redesign is pushed, verify HTTP 200 and live HTML contains No-Quit Services plus the new `hero-finished-sprinklers.jpg` asset reference.
