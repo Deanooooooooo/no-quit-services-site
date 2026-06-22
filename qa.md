@@ -49,8 +49,8 @@ PASS.
 - All image paths exist locally.
 - No duplicate visible placement of any project image. Logo reuse is limited to brand/header/proof/footer.
 - Old `assets/project-01.jpg` through `assets/project-04.jpg` references were removed; current visible image set is unique.
-- Gallery uses a strict lead-row plus three-card row system: 4:3 landscape frames, one true 3:4 portrait frame, equal gutters, and no masonry gaps. The vertical trench photo is no longer forced into a decorative crop.
-- Desktop and mobile screenshots checked after the redesign: no text clipping, no incoherent overlap, no missing project images, and no old project asset references.
+- Gallery now uses a strict justified photo-wall system: three equal 4:3 landscape cards, then one 4:3 feature image plus one true 3:4 portrait image with matching row height. Equal 18px gutters, 1180px desktop cap, no masonry gaps, no forced portrait-to-landscape crop.
+- Desktop and mobile screenshots checked after the gallery rebuild: no text clipping, no incoherent overlap, no missing project images, and no old project asset references.
 
 ## Gate 7 — Map / Local SEO Audit
 

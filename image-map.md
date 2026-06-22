@@ -106,5 +106,6 @@ Candidate audit artifact: `research/fb-candidates/contact-sheet.jpg`
 - No visible image file is reused across page sections.
 - Landscape photos use 4:3 frames matching their source dimensions.
 - The trench photo uses a 3:4 portrait card; it is not forced into a wide or decorative crop.
-- The gallery uses a strict two-part layout: a 16:9-width lead row where the 4:3 landscape and 3:4 portrait resolve to the same height, followed by three equal 4:3 landscape cards.
+- The gallery uses a strict justified photo-wall layout: three equal 4:3 work photos establish the rhythm first, then a 16:9-width finished-work feature and 3:4 portrait trench image resolve to the same height below.
+- The gallery is capped at 1180px so the photos do not become oversized slabs on desktop.
 - Mobile stacks each image full-width with the same source-matching aspect ratios.
