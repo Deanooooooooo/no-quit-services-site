@@ -48,7 +48,7 @@ Candidate audit artifact: `research/fb-candidates/contact-sheet.jpg`
 - Dimensions: 1280x960, landscape 4:3.
 - Classification: finished landscape / gallery feature.
 - Scores: realness 5, sharpness 4, crop safety 5, aspect fit 5, relevance 5, uniqueness 5.
-- Placement: gallery feature card, natural 4:3.
+- Placement: gallery lead landscape card, natural 4:3.
 
 ### `assets/lawn-trench-path.jpg`
 - Source: Facebook page photo, saved from `candidate-33.jpg`.
@@ -106,4 +106,5 @@ Candidate audit artifact: `research/fb-candidates/contact-sheet.jpg`
 - No visible image file is reused across page sections.
 - Landscape photos use 4:3 frames matching their source dimensions.
 - The trench photo uses a 3:4 portrait card; it is not forced into a wide or decorative crop.
-- The gallery uses a strict grid with equal gutters and consistent 8px radius, but subject integrity wins over symmetry.
+- The gallery uses a strict two-part layout: a 16:9-width lead row where the 4:3 landscape and 3:4 portrait resolve to the same height, followed by three equal 4:3 landscape cards.
+- Mobile stacks each image full-width with the same source-matching aspect ratios.
